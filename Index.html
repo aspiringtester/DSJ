@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSJ Timber Flooring</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <navbar>
+        <div class="navbar">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-telephone-forward" viewBox="0 0 16 16">
+                    <path
+                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.762.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z" />
+                </svg>
+                0402984445
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+                viewBox="0 0 16 16">
+                <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+            </svg>
+            <!-- time clock -->
+            <div id="showDate">
+            </div>
+            <div id="showTime">
+            </div>
+
+
+        </div>
+    </navbar>
+    <header>
+        <div class="title">
+            <img src="./images/logo.png" class="titleimg" />
+            <!--  
+            <svg>
+                <text x="20" y="40"
+                    style="stroke:#454e56;stroke-width:1; fill:rgb(6, 192, 249);font-size:25px;letter-spacing: 1;">DJS
+                    Timber
+                    Flooring</text>
+            </svg>
+        -->
+        </div>
+
+
+    </header>
+
+
+
+
+    <!-- slide show -->
+    <div class="w3-content w3-section" style="max-width:80%;margin:auto">
+        <img class="mySlides" src="./images/s0.jpg" style="height:50vh;width:100%">
+        <img class="mySlides" src="./images/s1.jpg" style="height:50vh;width:100%"">
+            <img class=" mySlides" src="./images/s2.jpg" style="height:50vh;width:100%"">
+            <img class=" mySlides" src="./images/s3.jpg" style="height:50vh;width:100%"">
+        </div>
+        <!-- slideshow ends -->
+
+
+
+        <div id=" flex-box">
+        <!-- bootstrap cards with images -->
+        <div class="card" style="width: 18rem;">
+
+            <div class="card-body">
+                <h5 class="card-title">Ask Us for a Free Quote</h5>
+                <a>Click here<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-patch-question" viewBox="0 0 16 16">
+                        <path
+                            d="M8.05 9.6c.336 0 .504-.24.554-.627.04-.534.198-.815.847-1.26.673-.475 1.049-1.09 1.049-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745z" />
+                        <path
+                            d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z" />
+                        <path d="M7.001 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0z" />
+                    </svg></a>
+                <p class="card-text"> Timber Floor new or old sanding polishing.
+                    3 coat polishing and quality finishing.
+                    Polyurethane- Gloss/Matt/Semi-gloss/Satin.
+                    Water base-Gloss/Matt/Satin
+                    Direct satin</p>
+            </div>
+        </div>
+
+        <!-- next card -->
+
+        <div class="card" style="width: 18rem;">
+
+            <div class="card-body">
+                <h5 class="card-title">Contact Us</h5>
+
+                <p class="card-text">DSJ Timber Flooring</br>
+                    3/22 Kruger Street Warrnambool 3280</br>
+                    0402984445</p>
+
+            </div>
+        </div>
+
+
+
+        <!-- next card -->
+        <div class="card" style="width: 18rem;">
+
+            <div class="card-body">
+
+
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.7953195324935!2d142.4702004158596!3d-38.3768561742465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6acd4c5ec7985851%3A0x3588e89d943b0df0!2sUnit%203%2F22%20Kruger%20St%2C%20Warrnambool%20VIC%203280!5e0!3m2!1sen!2sau!4v1651799597384!5m2!1sen!2sau"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <!-- next card -->
+
+    </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName(" mySlides"); for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            } myIndex++; if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+
+</html>
+
+</header>
+<footer>
+    <div class="lowbar">@created by paramita.digital</div>
+</footer>
+</body>
+
+</html>

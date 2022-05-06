@@ -1,0 +1,80 @@
+:root {
+    --blue:rgb(6, 192, 249);
+    --yellow: #f0be08;
+    --white: #ffffff;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: var(--blue);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color:var(--white)
+}
+
+.navbar div {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: var(--yellow);
+
+    color: black;
+}
+
+/* flexbox and cards */
+#flex-box {
+    margin-top: -100px;
+    display:inline-flex;
+    
+    flex-wrap: wrap;
+    padding:2%;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-evenly;
+    
+    
+}
+.title {
+    margin-top: 100px;
+    display:flex;
+    justify-content: center;
+    
+    color: var(--yellow);
+}
+.card {
+    border-color: white;
+}
+.lowbar{
+    background-color: var(--blue); 
+    width: 100%;
+    height:5vh; 
+    color: var(--white);
+}
+  
+
+
+@media only screen and (max-width: 700px) {
+    .mySlides {
+        height:20vh;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+      .titleimg{
+          width:80%;
+      }
+  }
